@@ -5,8 +5,9 @@
 <img src="images/image.png" width="700">
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-<i>Any individual who chooses to invest in any asset class should do so with caution. The information contained in this notebook should be viewed as commercial advertisement and is not intended to be investment advice. Always do your own due diligence. Please research before investing. 
-
-In the notebook I propose a long-run forecasting model that uses Ordinary Least Squares (OLS). Using OLS for short-run time-series forecasting is not recommended because of (1). By using an ARIMA, the proposed model has historically been able to beat a naive forecasting model in the short-run. Having said that, past performance is not indicative of future returns.
-
-(1) The classical linear regression model builds on the assumption of independent and identically distributed observations. For cross-sectional data, independence between observations is automatically fulfilled when random sampling is used. For time series, one typically cannot assume that the samples which are taken throughout time are independent of one another. Time series tend to contain a high degree of auto-correlation, which is particularly the case if the sampling interval is small, such as a week or a month. Furthermore, time series data tend to be nonstationary in levels, which violates the requirement of identically distributed observation. By employing a classic linear regression model for time series data, the risk of producing a spurious model is high because sufficient care is not taken during formulation of the auto-correlation structure and non-stationarity of the data.</i>
+<i>Any individual who chooses to invest in any asset class should do so with caution. The information contained in this notebook should be viewed as commercial advertisement and is not intended to be investment advice. 
+<ul>
+  <li> Always do your own due diligence. </li>
+  <li> Please research before investing. </li>
+  <li> Past performance is not indicative of future returns. </li>
+</ul>
